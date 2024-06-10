@@ -1,0 +1,365 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.but{
+    text-decoration: none;
+    width: 280px;
+    border-radius: 4px;
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    
+    
+
+}
+.vehicle{
+    text-decoration: none;
+}
+.logo{
+    height: 15px;
+    width: 120px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    
+    text-align: center;
+    
+
+    
+}
+
+.nav-container{
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 50px;
+    height: 56px;
+    z-index: 1;
+}
+.nav-container ul{
+    display: flex;
+    list-style: none;
+    gap:10px;
+    
+   
+}
+.nav-container ul li{
+    cursor: pointer;
+    padding: 10px 10px;
+    border-radius: 1px;
+    border: 1px solid rgba(0, 0, 0, 0);
+
+}
+.nav-container .icons{
+    display: flex;
+    gap: 8px;
+}
+.iconi{
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+.icon:hover{
+    background-color: #7FBCE0;
+    border-radius: 4px;
+}
+#white{
+    background-color: #181A1F;
+    border: 3px solid #181A1F;
+    color: #FFFFFF;
+    list-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 93px;
+    padding-left: 93px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+}
+.only{
+  display: flex;
+  list-style: none; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 450px;
+  gap: 20px;
+}
+#black{
+    background-color: #f4f4f4;
+    border: 3px solid #f4f4f4;
+    color: #393C41;
+    list-style: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 93px;
+    padding-left: 93px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Model-3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-3-Desktop-LHD-v2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    text-decoration: none;
+    /* text-align: center; */
+}
+.model-3-division{
+    margin-top: 100px;
+    text-align: center;
+}
+.Model-Y{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-Y-Desktop-Global.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+}
+.Model-x{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-X-Desktop-v2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+}
+.Model-s{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Model-S-Desktop-v2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+}
+.Cyberpunk{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Cybertruck-Desktop.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+}
+.Solar-Panel{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-SolarPanels-01-Desktop.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: aliceblue;
+    
+    
+}
+.Solar-Roof{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-SolarRoof-Desktop-Global.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.Powerwall{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Powerwall-01-Desktop.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.Accessories{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Homepage-Accessories-Desktop-NA-APAC.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.end{
+    background-color: #000000;
+    color: #D0D1D2;
+    padding-top: 40px;
+    padding-bottom: 24px;
+}
+.content{
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 30px;
+    line-height: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    font-weight: 400;
+    word-spacing: 1px;
+    opacity: 0.9;
+    
+}
+.legal{
+    background-color: #000000;
+}
+.legal-end{
+    text-decoration: none;
+    color: white;
+}
+.ended{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 13px;
+    z-index: 9999;
+    opacity: 0.8;
+
+}
+.content li:nth-child(1){
+    margin-bottom: 7px;
+}
+.content li:nth-child(2){
+    margin-bottom: 7px;
+}
+.content li:nth-child(3){
+    margin-bottom: 7px;
+}
+.model-3-division h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    opacity: 0.9;
+    margin-bottom: 8px;
+}
+.model-3-division p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    opacity: 0.7;
+    
+}
+
+.space{
+    padding-top: 110px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    opacity: 0.9;
+    margin-bottom: 6px;
+
+}
+.dollar{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 24px;
+    opacity: 0.8;
+}
+.est{
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 14px;
+    margin-top: 8px;
+    opacity: 0.8;
+}
+.jub{
+    color: #FFFFFF;
+}
+.Cyberpunk-logo{
+    width: 449.98px;
+    height: 126.57px;
+    margin-top: 110px;
+}
+.nowhere{
+    margin-top: 485px;
+}
+.deh{
+    text-decoration: none;
+    color: #FFFFFF;
+    border-bottom: 1px solid white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.deh:hover{
+    border-bottom: 2px solid white;
+}
+.arr{
+    font-size: 14px;
+    opacity: 0.9;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.bold{
+    text-decoration: none;
+    color: #181A1F;
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 24px;
+    border-bottom: 1px solid #18141f;
+    
+}
+.bold:hover{
+    border-bottom: 2px solid #18141f;
+}
+.thoda{
+    margin-top: 5px;
+}
+.discovers{
+    text-decoration: none;
+    color: #181A1F;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+.icon{
+    text-decoration: none;
+    color: #181A1F;
+    
+}
+.discovers:hover{
+    
+    
+    background-color: #7FBCE0;
+    border-radius: 4px;
+    
+    
+    
+}
