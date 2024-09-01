@@ -1,1 +1,5 @@
-# This repo is used to store my intern task.
+TESLA CLONE DEPLOYED LINK
+https://tesla-clonebms.netlify.app
+
+FURNIRO ECOMMERCE WEBSITE DEPLOYED LINK
+https://furniroecom.netlify.app
